@@ -5,6 +5,8 @@ from qiskit import Aer, assemble, transpile
 from enum import IntEnum
 import numpy as np
 
+# Комментарий из практики по Git
+
 # Перечисление для удобного использования номеров кубитов
 class qubit(IntEnum):
     a_0 = 0; a_1 = 1; a_2 = 2
